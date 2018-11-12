@@ -1,0 +1,798 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74534E9120DE1D2200671914 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74534E9020DE1D2200671914 /* ViewController.swift */; };
+		74534EAE20DE4C3600671914 /* SearchResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74534EAD20DE4C3600671914 /* SearchResultTableViewCell.swift */; };
+		74534EB020DE4C7B00671914 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74534EAF20DE4C7B00671914 /* SearchResult.swift */; };
+		74534EB620DE733800671914 /* a2.png in Resources */ = {isa = PBXBuildFile; fileRef = 74534EB520DE733800671914 /* a2.png */; };
+		74534EB820DE734200671914 /* earth.png in Resources */ = {isa = PBXBuildFile; fileRef = 74534EB720DE734200671914 /* earth.png */; };
+		74534EBD20DE74DD00671914 /* a1.png in Resources */ = {isa = PBXBuildFile; fileRef = 74534EBC20DE74DD00671914 /* a1.png */; };
+		74534EBF20DE77A600671914 /* a3.png in Resources */ = {isa = PBXBuildFile; fileRef = 74534EBE20DE77A600671914 /* a3.png */; };
+		74534EC120DE797100671914 /* WebServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74534EC020DE797100671914 /* WebServiceManager.swift */; };
+		74534EC320DE799000671914 /* WebResponseVerifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74534EC220DE799000671914 /* WebResponseVerifier.swift */; };
+		74534EC520DE7B1E00671914 /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74534EC420DE7B1E00671914 /* BaseRequest.swift */; };
+		74534EC820DE94DB00671914 /* a4.png in Resources */ = {isa = PBXBuildFile; fileRef = 74534EC720DE94DA00671914 /* a4.png */; };
+		84AADE901C86123500028505 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AADE8F1C86123500028505 /* AppDelegate.swift */; };
+		84AADE951C86123500028505 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84AADE931C86123500028505 /* Main.storyboard */; };
+		84AADE971C86123500028505 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84AADE961C86123500028505 /* Images.xcassets */; };
+		84AADE9A1C86123500028505 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AADE981C86123500028505 /* LaunchScreen.xib */; };
+		84AADEA61C86123500028505 /* ChanelEmojiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AADEA51C86123500028505 /* ChanelEmojiTests.swift */; };
+		84AADEB81C86126900028505 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AADEB71C86126900028505 /* KeyboardViewController.swift */; };
+		84AADEBB1C86126900028505 /* ChanelEmojiKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 84AADEB31C86126900028505 /* ChanelEmojiKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		84AADEC31C86179100028505 /* ImageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AADEC21C86179100028505 /* ImageCollectionViewCell.xib */; };
+		84AADEC51C86248F00028505 /* KeyboardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84AADEC41C86248E00028505 /* KeyboardView.xib */; };
+		9D23BCC17210388D4E477A95 /* Pods_ChanelEmoji.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6560BD1915D1A4C6B7DC358F /* Pods_ChanelEmoji.framework */; };
+		C1D6D0EA4CFD3FE9B0136F86 /* Pods_ChanelEmojiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF71CF886941D8C70B9BA328 /* Pods_ChanelEmojiTests.framework */; };
+		CDF9A43D77178FE06E7B5BA6 /* Pods_ChanelEmojiKeyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3373F6771EF70EE66C77E1CD /* Pods_ChanelEmojiKeyboard.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84AADEA01C86123500028505 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84AADE821C86123500028505 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84AADE891C86123500028505;
+			remoteInfo = Jimoni;
+		};
+		84AADEB91C86126900028505 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84AADE821C86123500028505 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84AADEB21C86126900028505;
+			remoteInfo = JimoniKeyboard;
+		};
+		84AADEBC1C86126900028505 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84AADE821C86123500028505 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84AADEB21C86126900028505;
+			remoteInfo = JimoniKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		84AADEC11C86126900028505 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				84AADEBB1C86126900028505 /* ChanelEmojiKeyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		156CB0C146027B69C281A9AB /* Pods-ChanelEmojiKeyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChanelEmojiKeyboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChanelEmojiKeyboard/Pods-ChanelEmojiKeyboard.release.xcconfig"; sourceTree = "<group>"; };
+		1639C6B0F157190C4F376572 /* Pods-ChanelEmojiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChanelEmojiTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChanelEmojiTests/Pods-ChanelEmojiTests.release.xcconfig"; sourceTree = "<group>"; };
+		3373F6771EF70EE66C77E1CD /* Pods_ChanelEmojiKeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChanelEmojiKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6560BD1915D1A4C6B7DC358F /* Pods_ChanelEmoji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChanelEmoji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67E16A78934176C33E4DBC09 /* Pods-ChanelEmojiKeyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChanelEmojiKeyboard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChanelEmojiKeyboard/Pods-ChanelEmojiKeyboard.debug.xcconfig"; sourceTree = "<group>"; };
+		6EC0888FC965252599A36BA7 /* Pods-ChanelEmoji.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChanelEmoji.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChanelEmoji/Pods-ChanelEmoji.debug.xcconfig"; sourceTree = "<group>"; };
+		74534E9020DE1D2200671914 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74534EAD20DE4C3600671914 /* SearchResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultTableViewCell.swift; sourceTree = "<group>"; };
+		74534EAF20DE4C7B00671914 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		74534EB520DE733800671914 /* a2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a2.png; sourceTree = "<group>"; };
+		74534EB720DE734200671914 /* earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earth.png; sourceTree = "<group>"; };
+		74534EBC20DE74DD00671914 /* a1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a1.png; sourceTree = "<group>"; };
+		74534EBE20DE77A600671914 /* a3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a3.png; sourceTree = "<group>"; };
+		74534EC020DE797100671914 /* WebServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebServiceManager.swift; sourceTree = "<group>"; };
+		74534EC220DE799000671914 /* WebResponseVerifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebResponseVerifier.swift; sourceTree = "<group>"; };
+		74534EC420DE7B1E00671914 /* BaseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
+		74534EC720DE94DA00671914 /* a4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = a4.png; sourceTree = "<group>"; };
+		84AADE8A1C86123500028505 /* ChanelEmoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChanelEmoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AADE8E1C86123500028505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84AADE8F1C86123500028505 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84AADE941C86123500028505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84AADE961C86123500028505 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84AADE991C86123500028505 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		84AADE9F1C86123500028505 /* ChanelEmojiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChanelEmojiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AADEA41C86123500028505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84AADEA51C86123500028505 /* ChanelEmojiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChanelEmojiTests.swift; sourceTree = "<group>"; };
+		84AADEB31C86126900028505 /* ChanelEmojiKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ChanelEmojiKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		84AADEB61C86126900028505 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84AADEB71C86126900028505 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		84AADEC21C86179100028505 /* ImageCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCollectionViewCell.xib; sourceTree = "<group>"; };
+		84AADEC41C86248E00028505 /* KeyboardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyboardView.xib; sourceTree = "<group>"; };
+		DF71CF886941D8C70B9BA328 /* Pods_ChanelEmojiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChanelEmojiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3D90CF773F5EDC6C2036E13 /* Pods-ChanelEmojiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChanelEmojiTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChanelEmojiTests/Pods-ChanelEmojiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		ECE93C367642EAF17C627099 /* Pods-ChanelEmoji.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChanelEmoji.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChanelEmoji/Pods-ChanelEmoji.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84AADE871C86123500028505 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D23BCC17210388D4E477A95 /* Pods_ChanelEmoji.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AADE9C1C86123500028505 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1D6D0EA4CFD3FE9B0136F86 /* Pods_ChanelEmojiTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AADEB01C86126900028505 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDF9A43D77178FE06E7B5BA6 /* Pods_ChanelEmojiKeyboard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07C4C52FBCADB7B99C0D318E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6EC0888FC965252599A36BA7 /* Pods-ChanelEmoji.debug.xcconfig */,
+				ECE93C367642EAF17C627099 /* Pods-ChanelEmoji.release.xcconfig */,
+				67E16A78934176C33E4DBC09 /* Pods-ChanelEmojiKeyboard.debug.xcconfig */,
+				156CB0C146027B69C281A9AB /* Pods-ChanelEmojiKeyboard.release.xcconfig */,
+				E3D90CF773F5EDC6C2036E13 /* Pods-ChanelEmojiTests.debug.xcconfig */,
+				1639C6B0F157190C4F376572 /* Pods-ChanelEmojiTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		74534EB120DE4C8B00671914 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				74534EAD20DE4C3600671914 /* SearchResultTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		74534EB220DE4C9200671914 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				74534EAF20DE4C7B00671914 /* SearchResult.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		74534EBB20DE735300671914 /* pngs */ = {
+			isa = PBXGroup;
+			children = (
+				74534EB520DE733800671914 /* a2.png */,
+				74534EBC20DE74DD00671914 /* a1.png */,
+				74534EBE20DE77A600671914 /* a3.png */,
+				74534EC720DE94DA00671914 /* a4.png */,
+				74534EB720DE734200671914 /* earth.png */,
+			);
+			name = pngs;
+			sourceTree = "<group>";
+		};
+		74534EC620DE7B5C00671914 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				74534EC020DE797100671914 /* WebServiceManager.swift */,
+				74534EC420DE7B1E00671914 /* BaseRequest.swift */,
+				74534EC220DE799000671914 /* WebResponseVerifier.swift */,
+			);
+			path = WebService;
+			sourceTree = "<group>";
+		};
+		84AADE811C86123500028505 = {
+			isa = PBXGroup;
+			children = (
+				84AADE8C1C86123500028505 /* ChanelEmoji */,
+				84AADEA21C86123500028505 /* ChanelEmojiTests */,
+				84AADEB41C86126900028505 /* ChanelEmojiKeyboard */,
+				84AADE8B1C86123500028505 /* Products */,
+				07C4C52FBCADB7B99C0D318E /* Pods */,
+				C0696CA07E177DAED878DA21 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84AADE8B1C86123500028505 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84AADE8A1C86123500028505 /* ChanelEmoji.app */,
+				84AADE9F1C86123500028505 /* ChanelEmojiTests.xctest */,
+				84AADEB31C86126900028505 /* ChanelEmojiKeyboard.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84AADE8C1C86123500028505 /* ChanelEmoji */ = {
+			isa = PBXGroup;
+			children = (
+				84E6016D1CDCFF8D00CC2CFE /* Demo */,
+				84AADE8F1C86123500028505 /* AppDelegate.swift */,
+				84AADE931C86123500028505 /* Main.storyboard */,
+				84AADE961C86123500028505 /* Images.xcassets */,
+				84AADE981C86123500028505 /* LaunchScreen.xib */,
+				84AADE8D1C86123500028505 /* Supporting Files */,
+			);
+			path = ChanelEmoji;
+			sourceTree = "<group>";
+		};
+		84AADE8D1C86123500028505 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84AADE8E1C86123500028505 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84AADEA21C86123500028505 /* ChanelEmojiTests */ = {
+			isa = PBXGroup;
+			children = (
+				84AADEA51C86123500028505 /* ChanelEmojiTests.swift */,
+				84AADEA31C86123500028505 /* Supporting Files */,
+			);
+			path = ChanelEmojiTests;
+			sourceTree = "<group>";
+		};
+		84AADEA31C86123500028505 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84AADEA41C86123500028505 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84AADEB41C86126900028505 /* ChanelEmojiKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				74534EBB20DE735300671914 /* pngs */,
+				84AADEB71C86126900028505 /* KeyboardViewController.swift */,
+				84AADEC41C86248E00028505 /* KeyboardView.xib */,
+				84AADEC21C86179100028505 /* ImageCollectionViewCell.xib */,
+				84AADEB51C86126900028505 /* Supporting Files */,
+			);
+			path = ChanelEmojiKeyboard;
+			sourceTree = "<group>";
+		};
+		84AADEB51C86126900028505 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84AADEB61C86126900028505 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84E6016D1CDCFF8D00CC2CFE /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				74534E9020DE1D2200671914 /* ViewController.swift */,
+				74534EC620DE7B5C00671914 /* WebService */,
+				74534EB120DE4C8B00671914 /* Cells */,
+				74534EB220DE4C9200671914 /* Models */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		C0696CA07E177DAED878DA21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6560BD1915D1A4C6B7DC358F /* Pods_ChanelEmoji.framework */,
+				3373F6771EF70EE66C77E1CD /* Pods_ChanelEmojiKeyboard.framework */,
+				DF71CF886941D8C70B9BA328 /* Pods_ChanelEmojiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84AADE891C86123500028505 /* ChanelEmoji */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84AADEA91C86123600028505 /* Build configuration list for PBXNativeTarget "ChanelEmoji" */;
+			buildPhases = (
+				8BD7056F8A22C27812F2A523 /* [CP] Check Pods Manifest.lock */,
+				84AADE861C86123500028505 /* Sources */,
+				84AADE871C86123500028505 /* Frameworks */,
+				84AADE881C86123500028505 /* Resources */,
+				84AADEC11C86126900028505 /* Embed App Extensions */,
+				FBAF2F6B675A25F6DBCD6D4F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84AADEBA1C86126900028505 /* PBXTargetDependency */,
+				84AADEBD1C86126900028505 /* PBXTargetDependency */,
+			);
+			name = ChanelEmoji;
+			productName = Jimoni;
+			productReference = 84AADE8A1C86123500028505 /* ChanelEmoji.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84AADE9E1C86123500028505 /* ChanelEmojiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84AADEAC1C86123600028505 /* Build configuration list for PBXNativeTarget "ChanelEmojiTests" */;
+			buildPhases = (
+				3B6BCEAB06435F831060BA57 /* [CP] Check Pods Manifest.lock */,
+				84AADE9B1C86123500028505 /* Sources */,
+				84AADE9C1C86123500028505 /* Frameworks */,
+				84AADE9D1C86123500028505 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84AADEA11C86123500028505 /* PBXTargetDependency */,
+			);
+			name = ChanelEmojiTests;
+			productName = JimoniTests;
+			productReference = 84AADE9F1C86123500028505 /* ChanelEmojiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84AADEB21C86126900028505 /* ChanelEmojiKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84AADEBE1C86126900028505 /* Build configuration list for PBXNativeTarget "ChanelEmojiKeyboard" */;
+			buildPhases = (
+				2AB96D2E8B455F8197CECE28 /* [CP] Check Pods Manifest.lock */,
+				84AADEAF1C86126900028505 /* Sources */,
+				84AADEB01C86126900028505 /* Frameworks */,
+				84AADEB11C86126900028505 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChanelEmojiKeyboard;
+			productName = JimoniKeyboard;
+			productReference = 84AADEB31C86126900028505 /* ChanelEmojiKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84AADE821C86123500028505 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = withalsolution;
+				TargetAttributes = {
+					84AADE891C86123500028505 = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 3M8K8BRT5P;
+					};
+					84AADE9E1C86123500028505 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 84AADE891C86123500028505;
+					};
+					84AADEB21C86126900028505 = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 3M8K8BRT5P;
+					};
+				};
+			};
+			buildConfigurationList = 84AADE851C86123500028505 /* Build configuration list for PBXProject "ChanelEmoji" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84AADE811C86123500028505;
+			productRefGroup = 84AADE8B1C86123500028505 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84AADE891C86123500028505 /* ChanelEmoji */,
+				84AADE9E1C86123500028505 /* ChanelEmojiTests */,
+				84AADEB21C86126900028505 /* ChanelEmojiKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84AADE881C86123500028505 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AADE951C86123500028505 /* Main.storyboard in Resources */,
+				84AADE9A1C86123500028505 /* LaunchScreen.xib in Resources */,
+				84AADE971C86123500028505 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AADE9D1C86123500028505 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AADEB11C86126900028505 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74534EBD20DE74DD00671914 /* a1.png in Resources */,
+				74534EB820DE734200671914 /* earth.png in Resources */,
+				74534EB620DE733800671914 /* a2.png in Resources */,
+				84AADEC31C86179100028505 /* ImageCollectionViewCell.xib in Resources */,
+				74534EC820DE94DB00671914 /* a4.png in Resources */,
+				84AADEC51C86248F00028505 /* KeyboardView.xib in Resources */,
+				74534EBF20DE77A600671914 /* a3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2AB96D2E8B455F8197CECE28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChanelEmojiKeyboard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B6BCEAB06435F831060BA57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChanelEmojiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8BD7056F8A22C27812F2A523 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChanelEmoji-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBAF2F6B675A25F6DBCD6D4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ChanelEmoji/Pods-ChanelEmoji-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChanelEmoji/Pods-ChanelEmoji-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84AADE861C86123500028505 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74534EC120DE797100671914 /* WebServiceManager.swift in Sources */,
+				74534EC320DE799000671914 /* WebResponseVerifier.swift in Sources */,
+				74534E9120DE1D2200671914 /* ViewController.swift in Sources */,
+				74534EC520DE7B1E00671914 /* BaseRequest.swift in Sources */,
+				84AADE901C86123500028505 /* AppDelegate.swift in Sources */,
+				74534EB020DE4C7B00671914 /* SearchResult.swift in Sources */,
+				74534EAE20DE4C3600671914 /* SearchResultTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AADE9B1C86123500028505 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AADEA61C86123500028505 /* ChanelEmojiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84AADEAF1C86126900028505 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84AADEB81C86126900028505 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84AADEA11C86123500028505 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84AADE891C86123500028505 /* ChanelEmoji */;
+			targetProxy = 84AADEA01C86123500028505 /* PBXContainerItemProxy */;
+		};
+		84AADEBA1C86126900028505 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84AADEB21C86126900028505 /* ChanelEmojiKeyboard */;
+			targetProxy = 84AADEB91C86126900028505 /* PBXContainerItemProxy */;
+		};
+		84AADEBD1C86126900028505 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84AADEB21C86126900028505 /* ChanelEmojiKeyboard */;
+			targetProxy = 84AADEBC1C86126900028505 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84AADE931C86123500028505 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84AADE941C86123500028505 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84AADE981C86123500028505 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84AADE991C86123500028505 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84AADEA71C86123600028505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84AADEA81C86123600028505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84AADEAA1C86123600028505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EC0888FC965252599A36BA7 /* Pods-ChanelEmoji.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3M8K8BRT5P;
+				INFOPLIST_FILE = "$(SRCROOT)/ChanelEmoji/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Subramanya.ChanelEmoji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		84AADEAB1C86123600028505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECE93C367642EAF17C627099 /* Pods-ChanelEmoji.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3M8K8BRT5P;
+				INFOPLIST_FILE = "$(SRCROOT)/ChanelEmoji/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Subramanya.ChanelEmoji;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		84AADEAD1C86123600028505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3D90CF773F5EDC6C2036E13 /* Pods-ChanelEmojiTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ChanelEmojiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChanelEmoji.app/ChanelEmoji";
+			};
+			name = Debug;
+		};
+		84AADEAE1C86123600028505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1639C6B0F157190C4F376572 /* Pods-ChanelEmojiTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ChanelEmojiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChanelEmoji.app/ChanelEmoji";
+			};
+			name = Release;
+		};
+		84AADEBF1C86126900028505 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67E16A78934176C33E4DBC09 /* Pods-ChanelEmojiKeyboard.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3M8K8BRT5P;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/ChanelEmojiKeyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Subramanya.ChanelEmoji.ChanelEmojiKeyboard111;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		84AADEC01C86126900028505 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 156CB0C146027B69C281A9AB /* Pods-ChanelEmojiKeyboard.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 3M8K8BRT5P;
+				INFOPLIST_FILE = "$(SRCROOT)/ChanelEmojiKeyboard/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Subramanya.ChanelEmoji.ChanelEmojiKeyboard111;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84AADE851C86123500028505 /* Build configuration list for PBXProject "ChanelEmoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AADEA71C86123600028505 /* Debug */,
+				84AADEA81C86123600028505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84AADEA91C86123600028505 /* Build configuration list for PBXNativeTarget "ChanelEmoji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AADEAA1C86123600028505 /* Debug */,
+				84AADEAB1C86123600028505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84AADEAC1C86123600028505 /* Build configuration list for PBXNativeTarget "ChanelEmojiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AADEAD1C86123600028505 /* Debug */,
+				84AADEAE1C86123600028505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84AADEBE1C86126900028505 /* Build configuration list for PBXNativeTarget "ChanelEmojiKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84AADEBF1C86126900028505 /* Debug */,
+				84AADEC01C86126900028505 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84AADE821C86123500028505 /* Project object */;
+}
